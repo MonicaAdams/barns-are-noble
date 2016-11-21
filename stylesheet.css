@@ -6,6 +6,7 @@
 }
 
 .nav li a:link {
+    font-family:'Vast Shadow', cursive;
     text-decoration: none;
     width: 300px;
     display: block;
