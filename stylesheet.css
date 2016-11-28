@@ -1,24 +1,32 @@
-.nav ul {
-    list-style-type: none;
-}
-.nav li {
-    float:left;
+body { background-color: #fefee7;
 }
 
-.nav li a:link {
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #36486b;
+}
+.nav li {
+    float: left;
+}
+
+.nav li a {
     font-family:'Vast Shadow', cursive;
     text-decoration: none;
     width: 300px;
     display: block;
-    background-color: navy;
-    color: white;
+    color: #fefee7;
     text-align: center;
     padding: 8px;
 }
 
-.nav li a:hover, .nav li a:active
-{background-color: crimson;
+.nav li a:hover 
+{background-color: #c94c4c;
 }
+
+
 
 
 
@@ -59,17 +67,43 @@ nav a {
 
 header h1 {
     font-family: 'Fredericka the Great', cursive;
-    color: crimson
+    color: #c94c4c;
 }
 header p {
     font-family: 'Josefin Slab', cursive;
-    color:navy
+    color: #c94c4c;
 }
 section h2 {
     font-family: 'Special Elite', cursive;
-    color: navy;
+    color: #36486b;
+    text-align: center;
 }
 section p {
     font-family: 'Josefin Slab', cursive;
-    color: crimson
+    color: #36486b;
+}
+
+.wrapper {
+    width: 720px;
+    margin: 0px auto;
+}
+.entry {
+    width: 220px;
+    float: left;
+    margin: 10px;
+    height:198px;
+}
+figure {
+    display: block;
+    width: 202px;
+    height: 170px;
+    background-color:#fefee7;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+figure img {
+    width:200px;
+    height:150px;
+    border: 3px solid #36486b;
 }
