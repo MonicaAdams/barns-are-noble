@@ -82,6 +82,10 @@ section p {
     font-family: 'Josefin Slab', cursive;
     color: #36486b;
 }
+section img {
+    display: block;
+    margin: auto;
+}
 
 .wrapper {
     width: 720px;
